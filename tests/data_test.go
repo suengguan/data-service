@@ -42,7 +42,7 @@ func Test_Data_GetInputFiles(t *testing.T) {
 	}
 
 	// get input file
-	res, err := http.Get(base_url + "/1")
+	res, err := http.Get(base_url + "/input/1")
 	if err != nil {
 		t.Log("erro : ", err)
 		return
